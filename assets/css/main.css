@@ -3088,6 +3088,36 @@ input, select, textarea {
 			}
 
 	}
+	#Container{
+		max-width: 800px;
+		margin: 5%auto;
+		padding: 20px;
+		background-color: rgb(253, 102, 79);
+		border-radius: 50px;
+		overflow: hidden;
+		box-sizing: border-box;
+		box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+	}
+	
+	#Panel_galeria{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	#Panel_galeria div>img{
+		max-width: 100%;
+		display: block;
+		border-radius: 6px;
+	}
+	
+	#Panel_galeria div{
+		margin: 15px;
+		flex-basis: 200px;
+		padding: 5px;
+	}
+	
 
 /* Small */
 
